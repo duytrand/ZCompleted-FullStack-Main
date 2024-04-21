@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "duytran",
+    "password": "8177135637Duc!",
+    "database": "proplytic_user_db",
+    "host": "prolyticsqldb.mysql.database.azure.com",
+    "dialect": "mysql"
+  }
+}
