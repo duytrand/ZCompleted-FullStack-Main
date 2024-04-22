@@ -1,4 +1,7 @@
+require("dotenv").config();
 const express = require("express");
+const cors = require("cors");
+
 const router = express.Router();
 const { Posts } = require("../models");
 

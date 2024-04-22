@@ -1,7 +1,7 @@
 import baseUrl from "./baseUrl";
 import "./App.css";
 import axios from "axios";
-
+import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -9,6 +9,8 @@ function App() {
 
   useEffect(() => {
     axios.get(`${baseUrl}/posts`).then((response) => {
+      console.log("response");
+      console.log(response);
       setListOfPosts(response.data);
     });
   }, []);
